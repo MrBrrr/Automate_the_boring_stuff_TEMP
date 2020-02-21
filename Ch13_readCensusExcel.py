@@ -3,7 +3,7 @@
 
 import openpyxl, os, pprint
 
-os.chdir(os.path.join(os.path.dirname(os.getcwd()), "automate_online-materials"))
+os.chdir(os.path.join(os.path.dirname(os.getcwd()), "Ch13_materials"))
 
 workbook_handler = openpyxl.load_workbook('censuspopdata.xlsx')
 sheet = workbook_handler.active

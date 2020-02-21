@@ -3,7 +3,7 @@
 import openpyxl, os
 # it's lower: from openpyxl.utils.cell import get_column_letter, column_index_from_string
 
-os.chdir(os.path.join(os.getcwd(), "automate_online-materials"))
+os.chdir(os.path.join(os.getcwd(), "Ch13_materials"))
 print(os.getcwd())
 
 wb = openpyxl.load_workbook("example.xlsx")

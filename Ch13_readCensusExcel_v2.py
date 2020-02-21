@@ -4,8 +4,8 @@
 import openpyxl, os, pprint
 import sys
 print(os.getcwd())
-os.chdir(os.path.join(os.path.dirname(os.getcwd()), "automate_online-materials"))
-sys.path.append(os.path.join('D:', 'Dusia', 'Programming', 'automate_online-materials'))
+os.chdir(os.path.join(os.getcwd(), "Ch13_materials"))
+# sys.path.append(os.path.join('D:', 'Dusia', 'Programming', 'automate_online-materials'))
 print(os.getcwd())
 
 workbook_handler = openpyxl.load_workbook('censuspopdata.xlsx')

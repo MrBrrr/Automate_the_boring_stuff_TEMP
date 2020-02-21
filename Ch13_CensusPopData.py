@@ -2,7 +2,7 @@
 
 import openpyxl, os
 
-os.chdir(os.path.join(os.getcwd(), "automate_online-materials"))
+os.chdir(os.path.join(os.getcwd(), "Ch13_materials"))
 
 wb = openpyxl.load_workbook("censuspopdata.xlsx")
 work_sheet = wb.active
